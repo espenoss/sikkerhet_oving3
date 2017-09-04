@@ -5,6 +5,7 @@ const int max = 7;
 
 //Demonstrerer ANSI-farger
 void fargedemo() {
+	printf("Hello from Maria!");
 	farge_printf(7,0,"bakgr\nfarge  forgrunnsfarge\n       ");
 	for (int x = 0; x <= max; ++x) {
 		printf("%4i  ", x);
